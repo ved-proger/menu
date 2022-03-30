@@ -54,8 +54,10 @@ body._pc .menu__list > li:hover .menu__sub-list{
 /*============= touch ============*/
 body._touch .menu__arrow{
 		display: block;
+		padding: 0;
 		width: 0;
 		height: 0;
+		background-color: transparent;
 		border-left: 5px solid transparent;
 		border-right: 5px solid transparent;
 		border-top: 10px solid #fff;
